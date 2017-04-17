@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20170417143401) do
     t.integer  "wage_upper_bound"
     t.         "wage_lower_bound"
     t.string   "contact_email"
-    t.boolean  "is_hiddent",       default: true
+    t.boolean  "is_hidden",        default: true
   end
 
   create_table "users", force: :cascade do |t|
